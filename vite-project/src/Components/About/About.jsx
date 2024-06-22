@@ -10,15 +10,19 @@ const About = () => {
         <h1>About me</h1>
         <img src={themepattern} alt="" />
       </div>
+
+
       <div className="about-sec">
         <div className="about-left">
             <img src={aboutprof} alt="" />
         </div>
+
         <div className="about-right">
             <div className="about-para">
                 <p>Experience developer passion for coding</p>
                 <p>Experience developer passion for coding</p>
             </div>
+
             <div className="skills">
                 <div className="abt-skill">
                     <p>HTML && CSS</p> <hr style={{width:"60%"}}/>
@@ -34,6 +38,25 @@ const About = () => {
                 </div>
             </div>
         </div>
+       </div>
+
+      <div className="achievements">
+        <div className="achievement">
+            <h1>2+</h1>
+            <p>Years of experience</p>
+        </div>
+        <hr />
+        <div className="achievement">
+            <h1>10+</h1>
+            <p>Projects completed</p>
+        </div>
+        <hr />
+        <div className="achievement">
+            <h1>10+</h1>
+            <p>Projects completed</p>
+        </div>
+
+
       </div>
     </div>
   )
