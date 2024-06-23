@@ -7,7 +7,7 @@ import callicon from "../../assets/call_icon.svg";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div id="contact" className="contact">
       <div className="c-title">
         <h1>Get in Touch</h1>
         <img src={themepattern1} alt="" />
