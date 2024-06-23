@@ -27,6 +27,9 @@
   display: flex;
   gap: 80px;
 }
+.about-sec img {
+  border-radius: 50%;
+}
 
 .about-right {
   display: flex;
